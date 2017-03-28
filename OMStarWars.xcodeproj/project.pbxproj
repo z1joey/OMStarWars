@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28440B8A1E8A2EB50008651E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28440B891E8A2EB50008651E /* AppDelegate.swift */; };
+		28440B8C1E8A2EB50008651E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28440B8B1E8A2EB50008651E /* ViewController.swift */; };
+		28440B8F1E8A2EB50008651E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28440B8D1E8A2EB50008651E /* Main.storyboard */; };
+		28440B911E8A2EB50008651E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28440B901E8A2EB50008651E /* Assets.xcassets */; };
+		28440B941E8A2EB50008651E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28440B921E8A2EB50008651E /* LaunchScreen.storyboard */; };
+		28440B9F1E8A2EB50008651E /* OMStarWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28440B9E1E8A2EB50008651E /* OMStarWarsTests.swift */; };
+		28440BAA1E8A2EB50008651E /* OMStarWarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28440BA91E8A2EB50008651E /* OMStarWarsUITests.swift */; };
+		E5E7E8A9D40687E7DFE7A6A3 /* Pods_OMStarWars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11A3CACB7A0ABC615B58787A /* Pods_OMStarWars.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28440B9B1E8A2EB50008651E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28440B7E1E8A2EB50008651E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28440B851E8A2EB50008651E;
+			remoteInfo = OMStarWars;
+		};
+		28440BA61E8A2EB50008651E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28440B7E1E8A2EB50008651E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28440B851E8A2EB50008651E;
+			remoteInfo = OMStarWars;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11A3CACB7A0ABC615B58787A /* Pods_OMStarWars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMStarWars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28440B861E8A2EB50008651E /* OMStarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMStarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28440B891E8A2EB50008651E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28440B8B1E8A2EB50008651E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28440B8E1E8A2EB50008651E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28440B901E8A2EB50008651E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28440B931E8A2EB50008651E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28440B951E8A2EB50008651E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28440B9A1E8A2EB50008651E /* OMStarWarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMStarWarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28440B9E1E8A2EB50008651E /* OMStarWarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMStarWarsTests.swift; sourceTree = "<group>"; };
+		28440BA01E8A2EB50008651E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28440BA51E8A2EB50008651E /* OMStarWarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMStarWarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28440BA91E8A2EB50008651E /* OMStarWarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMStarWarsUITests.swift; sourceTree = "<group>"; };
+		28440BAB1E8A2EB50008651E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E7A08F58FC5DFAB5D092FD8 /* Pods-OMStarWars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMStarWars.release.xcconfig"; path = "Pods/Target Support Files/Pods-OMStarWars/Pods-OMStarWars.release.xcconfig"; sourceTree = "<group>"; };
+		9E392DEAD578835041FE90B3 /* Pods-OMStarWars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMStarWars.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OMStarWars/Pods-OMStarWars.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28440B831E8A2EB50008651E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E7E8A9D40687E7DFE7A6A3 /* Pods_OMStarWars.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28440B971E8A2EB50008651E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28440BA21E8A2EB50008651E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23C4BF2313823017C0B35810 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E392DEAD578835041FE90B3 /* Pods-OMStarWars.debug.xcconfig */,
+				4E7A08F58FC5DFAB5D092FD8 /* Pods-OMStarWars.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		28440B7D1E8A2EB50008651E = {
+			isa = PBXGroup;
+			children = (
+				28440B881E8A2EB50008651E /* OMStarWars */,
+				28440B9D1E8A2EB50008651E /* OMStarWarsTests */,
+				28440BA81E8A2EB50008651E /* OMStarWarsUITests */,
+				28440B871E8A2EB50008651E /* Products */,
+				23C4BF2313823017C0B35810 /* Pods */,
+				44B944190BD0D00C3F0214DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28440B871E8A2EB50008651E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28440B861E8A2EB50008651E /* OMStarWars.app */,
+				28440B9A1E8A2EB50008651E /* OMStarWarsTests.xctest */,
+				28440BA51E8A2EB50008651E /* OMStarWarsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28440B881E8A2EB50008651E /* OMStarWars */ = {
+			isa = PBXGroup;
+			children = (
+				28440B891E8A2EB50008651E /* AppDelegate.swift */,
+				28440B8B1E8A2EB50008651E /* ViewController.swift */,
+				28440B8D1E8A2EB50008651E /* Main.storyboard */,
+				28440B901E8A2EB50008651E /* Assets.xcassets */,
+				28440B921E8A2EB50008651E /* LaunchScreen.storyboard */,
+				28440B951E8A2EB50008651E /* Info.plist */,
+			);
+			path = OMStarWars;
+			sourceTree = "<group>";
+		};
+		28440B9D1E8A2EB50008651E /* OMStarWarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				28440B9E1E8A2EB50008651E /* OMStarWarsTests.swift */,
+				28440BA01E8A2EB50008651E /* Info.plist */,
+			);
+			path = OMStarWarsTests;
+			sourceTree = "<group>";
+		};
+		28440BA81E8A2EB50008651E /* OMStarWarsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28440BA91E8A2EB50008651E /* OMStarWarsUITests.swift */,
+				28440BAB1E8A2EB50008651E /* Info.plist */,
+			);
+			path = OMStarWarsUITests;
+			sourceTree = "<group>";
+		};
+		44B944190BD0D00C3F0214DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11A3CACB7A0ABC615B58787A /* Pods_OMStarWars.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28440B851E8A2EB50008651E /* OMStarWars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28440BAE1E8A2EB50008651E /* Build configuration list for PBXNativeTarget "OMStarWars" */;
+			buildPhases = (
+				353EC1CC9EE3D28DFA859437 /* [CP] Check Pods Manifest.lock */,
+				28440B821E8A2EB50008651E /* Sources */,
+				28440B831E8A2EB50008651E /* Frameworks */,
+				28440B841E8A2EB50008651E /* Resources */,
+				AD0D9CBD90E21D26FC4D5E32 /* [CP] Embed Pods Frameworks */,
+				9CCDA8DBAB039F60BE9A27CE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OMStarWars;
+			productName = OMStarWars;
+			productReference = 28440B861E8A2EB50008651E /* OMStarWars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28440B991E8A2EB50008651E /* OMStarWarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28440BB11E8A2EB50008651E /* Build configuration list for PBXNativeTarget "OMStarWarsTests" */;
+			buildPhases = (
+				28440B961E8A2EB50008651E /* Sources */,
+				28440B971E8A2EB50008651E /* Frameworks */,
+				28440B981E8A2EB50008651E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28440B9C1E8A2EB50008651E /* PBXTargetDependency */,
+			);
+			name = OMStarWarsTests;
+			productName = OMStarWarsTests;
+			productReference = 28440B9A1E8A2EB50008651E /* OMStarWarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28440BA41E8A2EB50008651E /* OMStarWarsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28440BB41E8A2EB50008651E /* Build configuration list for PBXNativeTarget "OMStarWarsUITests" */;
+			buildPhases = (
+				28440BA11E8A2EB50008651E /* Sources */,
+				28440BA21E8A2EB50008651E /* Frameworks */,
+				28440BA31E8A2EB50008651E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28440BA71E8A2EB50008651E /* PBXTargetDependency */,
+			);
+			name = OMStarWarsUITests;
+			productName = OMStarWarsUITests;
+			productReference = 28440BA51E8A2EB50008651E /* OMStarWarsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28440B7E1E8A2EB50008651E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Outware Mobile";
+				TargetAttributes = {
+					28440B851E8A2EB50008651E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					28440B991E8A2EB50008651E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28440B851E8A2EB50008651E;
+					};
+					28440BA41E8A2EB50008651E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28440B851E8A2EB50008651E;
+					};
+				};
+			};
+			buildConfigurationList = 28440B811E8A2EB50008651E /* Build configuration list for PBXProject "OMStarWars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28440B7D1E8A2EB50008651E;
+			productRefGroup = 28440B871E8A2EB50008651E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28440B851E8A2EB50008651E /* OMStarWars */,
+				28440B991E8A2EB50008651E /* OMStarWarsTests */,
+				28440BA41E8A2EB50008651E /* OMStarWarsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28440B841E8A2EB50008651E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28440B941E8A2EB50008651E /* LaunchScreen.storyboard in Resources */,
+				28440B911E8A2EB50008651E /* Assets.xcassets in Resources */,
+				28440B8F1E8A2EB50008651E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28440B981E8A2EB50008651E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28440BA31E8A2EB50008651E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		353EC1CC9EE3D28DFA859437 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9CCDA8DBAB039F60BE9A27CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OMStarWars/Pods-OMStarWars-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD0D9CBD90E21D26FC4D5E32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OMStarWars/Pods-OMStarWars-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28440B821E8A2EB50008651E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28440B8C1E8A2EB50008651E /* ViewController.swift in Sources */,
+				28440B8A1E8A2EB50008651E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28440B961E8A2EB50008651E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28440B9F1E8A2EB50008651E /* OMStarWarsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28440BA11E8A2EB50008651E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28440BAA1E8A2EB50008651E /* OMStarWarsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28440B9C1E8A2EB50008651E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28440B851E8A2EB50008651E /* OMStarWars */;
+			targetProxy = 28440B9B1E8A2EB50008651E /* PBXContainerItemProxy */;
+		};
+		28440BA71E8A2EB50008651E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28440B851E8A2EB50008651E /* OMStarWars */;
+			targetProxy = 28440BA61E8A2EB50008651E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28440B8D1E8A2EB50008651E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28440B8E1E8A2EB50008651E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28440B921E8A2EB50008651E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28440B931E8A2EB50008651E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28440BAC1E8A2EB50008651E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28440BAD1E8A2EB50008651E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28440BAF1E8A2EB50008651E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E392DEAD578835041FE90B3 /* Pods-OMStarWars.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OMStarWars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.outware.OMStarWars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		28440BB01E8A2EB50008651E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E7A08F58FC5DFAB5D092FD8 /* Pods-OMStarWars.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OMStarWars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.outware.OMStarWars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		28440BB21E8A2EB50008651E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OMStarWarsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.outware.OMStarWarsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OMStarWars.app/OMStarWars";
+			};
+			name = Debug;
+		};
+		28440BB31E8A2EB50008651E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OMStarWarsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.outware.OMStarWarsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OMStarWars.app/OMStarWars";
+			};
+			name = Release;
+		};
+		28440BB51E8A2EB50008651E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = OMStarWarsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.outware.OMStarWarsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OMStarWars;
+			};
+			name = Debug;
+		};
+		28440BB61E8A2EB50008651E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = OMStarWarsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.outware.OMStarWarsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OMStarWars;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28440B811E8A2EB50008651E /* Build configuration list for PBXProject "OMStarWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28440BAC1E8A2EB50008651E /* Debug */,
+				28440BAD1E8A2EB50008651E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28440BAE1E8A2EB50008651E /* Build configuration list for PBXNativeTarget "OMStarWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28440BAF1E8A2EB50008651E /* Debug */,
+				28440BB01E8A2EB50008651E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28440BB11E8A2EB50008651E /* Build configuration list for PBXNativeTarget "OMStarWarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28440BB21E8A2EB50008651E /* Debug */,
+				28440BB31E8A2EB50008651E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28440BB41E8A2EB50008651E /* Build configuration list for PBXNativeTarget "OMStarWarsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28440BB51E8A2EB50008651E /* Debug */,
+				28440BB61E8A2EB50008651E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28440B7E1E8A2EB50008651E /* Project object */;
+}
