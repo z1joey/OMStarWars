@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		283C6A881E8B782400EDFC6F /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C6A871E8B782400EDFC6F /* Film.swift */; };
 		28440B8A1E8A2EB50008651E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28440B891E8A2EB50008651E /* AppDelegate.swift */; };
 		28440B8C1E8A2EB50008651E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28440B8B1E8A2EB50008651E /* ViewController.swift */; };
 		28440B8F1E8A2EB50008651E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28440B8D1E8A2EB50008651E /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		11A3CACB7A0ABC615B58787A /* Pods_OMStarWars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMStarWars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		283C6A871E8B782400EDFC6F /* Film.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
 		28440B861E8A2EB50008651E /* OMStarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMStarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28440B891E8A2EB50008651E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28440B8B1E8A2EB50008651E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +90,30 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		283C6A841E8B781800EDFC6F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				283C6A851E8B781800EDFC6F /* Entities */,
+				283C6A861E8B781800EDFC6F /* WebService */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		283C6A851E8B781800EDFC6F /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				283C6A871E8B782400EDFC6F /* Film.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		283C6A861E8B781800EDFC6F /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
 		28440B7D1E8A2EB50008651E = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +139,7 @@
 		28440B881E8A2EB50008651E /* OMStarWars */ = {
 			isa = PBXGroup;
 			children = (
+				283C6A841E8B781800EDFC6F /* Modules */,
 				28440B891E8A2EB50008651E /* AppDelegate.swift */,
 				28440B8B1E8A2EB50008651E /* ViewController.swift */,
 				28440B8D1E8A2EB50008651E /* Main.storyboard */,
@@ -335,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28440B8C1E8A2EB50008651E /* ViewController.swift in Sources */,
+				283C6A881E8B782400EDFC6F /* Film.swift in Sources */,
 				28440B8A1E8A2EB50008651E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -582,6 +610,7 @@
 				28440BB01E8A2EB50008651E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28440BB11E8A2EB50008651E /* Build configuration list for PBXNativeTarget "OMStarWarsTests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +619,7 @@
 				28440BB31E8A2EB50008651E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28440BB41E8A2EB50008651E /* Build configuration list for PBXNativeTarget "OMStarWarsUITests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +628,7 @@
 				28440BB61E8A2EB50008651E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
