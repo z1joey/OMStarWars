@@ -10,6 +10,8 @@
 		283C6A881E8B782400EDFC6F /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C6A871E8B782400EDFC6F /* Film.swift */; };
 		283C6A8C1E8B791800EDFC6F /* StarWarsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C6A8B1E8B791800EDFC6F /* StarWarsAPI.swift */; };
 		283C6A8E1E8B798B00EDFC6F /* StarWarsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C6A8D1E8B798B00EDFC6F /* StarWarsParser.swift */; };
+		283C6A901E8B7A7A00EDFC6F /* StarWarsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C6A8F1E8B7A7A00EDFC6F /* StarWarsService.swift */; };
+		283C6A941E8B7D7600EDFC6F /* Messages.strings in Resources */ = {isa = PBXBuildFile; fileRef = 283C6A931E8B7D7600EDFC6F /* Messages.strings */; };
 		28440B8A1E8A2EB50008651E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28440B891E8A2EB50008651E /* AppDelegate.swift */; };
 		28440B8C1E8A2EB50008651E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28440B8B1E8A2EB50008651E /* ViewController.swift */; };
 		28440B8F1E8A2EB50008651E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28440B8D1E8A2EB50008651E /* Main.storyboard */; };
@@ -42,6 +44,8 @@
 		283C6A871E8B782400EDFC6F /* Film.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
 		283C6A8B1E8B791800EDFC6F /* StarWarsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsAPI.swift; sourceTree = "<group>"; };
 		283C6A8D1E8B798B00EDFC6F /* StarWarsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsParser.swift; sourceTree = "<group>"; };
+		283C6A8F1E8B7A7A00EDFC6F /* StarWarsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsService.swift; sourceTree = "<group>"; };
+		283C6A931E8B7D7600EDFC6F /* Messages.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Messages.strings; sourceTree = "<group>"; };
 		28440B861E8A2EB50008651E /* OMStarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMStarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28440B891E8A2EB50008651E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28440B8B1E8A2EB50008651E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,8 +120,25 @@
 			children = (
 				283C6A8B1E8B791800EDFC6F /* StarWarsAPI.swift */,
 				283C6A8D1E8B798B00EDFC6F /* StarWarsParser.swift */,
+				283C6A8F1E8B7A7A00EDFC6F /* StarWarsService.swift */,
 			);
 			path = WebService;
+			sourceTree = "<group>";
+		};
+		283C6A911E8B7D6400EDFC6F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				283C6A921E8B7D6400EDFC6F /* Strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		283C6A921E8B7D6400EDFC6F /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				283C6A931E8B7D7600EDFC6F /* Messages.strings */,
+			);
+			path = Strings;
 			sourceTree = "<group>";
 		};
 		28440B7D1E8A2EB50008651E = {
@@ -145,6 +166,7 @@
 		28440B881E8A2EB50008651E /* OMStarWars */ = {
 			isa = PBXGroup;
 			children = (
+				283C6A911E8B7D6400EDFC6F /* Resources */,
 				283C6A841E8B781800EDFC6F /* Modules */,
 				28440B891E8A2EB50008651E /* AppDelegate.swift */,
 				28440B8B1E8A2EB50008651E /* ViewController.swift */,
@@ -292,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283C6A941E8B7D7600EDFC6F /* Messages.strings in Resources */,
 				28440B941E8A2EB50008651E /* LaunchScreen.storyboard in Resources */,
 				28440B911E8A2EB50008651E /* Assets.xcassets in Resources */,
 				28440B8F1E8A2EB50008651E /* Main.storyboard in Resources */,
@@ -371,6 +394,7 @@
 				28440B8C1E8A2EB50008651E /* ViewController.swift in Sources */,
 				283C6A881E8B782400EDFC6F /* Film.swift in Sources */,
 				28440B8A1E8A2EB50008651E /* AppDelegate.swift in Sources */,
+				283C6A901E8B7A7A00EDFC6F /* StarWarsService.swift in Sources */,
 				283C6A8E1E8B798B00EDFC6F /* StarWarsParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
