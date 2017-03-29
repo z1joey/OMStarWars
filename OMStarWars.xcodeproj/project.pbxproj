@@ -220,6 +220,7 @@
 				TargetAttributes = {
 					28440B851E8A2EB50008651E = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y2XN2Z2HA2;
 						ProvisioningStyle = Automatic;
 					};
 					28440B991E8A2EB50008651E = {
@@ -488,6 +489,7 @@
 			baseConfigurationReference = 9E392DEAD578835041FE90B3 /* Pods-OMStarWars.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y2XN2Z2HA2;
 				INFOPLIST_FILE = OMStarWars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.outware.OMStarWars;
@@ -501,6 +503,7 @@
 			baseConfigurationReference = 4E7A08F58FC5DFAB5D092FD8 /* Pods-OMStarWars.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y2XN2Z2HA2;
 				INFOPLIST_FILE = OMStarWars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.outware.OMStarWars;
@@ -582,6 +585,7 @@
 				28440BB01E8A2EB50008651E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28440BB11E8A2EB50008651E /* Build configuration list for PBXNativeTarget "OMStarWarsTests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +594,7 @@
 				28440BB31E8A2EB50008651E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28440BB41E8A2EB50008651E /* Build configuration list for PBXNativeTarget "OMStarWarsUITests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +603,7 @@
 				28440BB61E8A2EB50008651E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
