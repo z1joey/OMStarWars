@@ -1,28 +1,25 @@
-//
-//  ViewController.swift
-//  OMStarWars
-//
-//  Created by Adamas Zhu on 28/3/17.
 //  Copyright © 2017 Outware Mobile. All rights reserved.
-//
 
-class ViewController: UIViewController {
+/**
+ * The list used to display a list of films.
+ */
+class FilmListViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-    
-    func createGetFilmProducer() -> SignalProducer<Array<Film>, AnyError> {
-        let signal = Signal<Array<Film>, AnyError>.pipe()
-        let producer = SignalProducer<Array<Film>, AnyError>()
+        let viewModel = FilmListViewModel()
+        viewModel.getFilms(showLoadingEffect: { (isLoading) in
+            
+        }) { (error) in
+            self.showError(error: error)
+        }
     }
 
 
 }
 
-import ReactiveCocoa
-import ReactiveSwift
-import Result
 import UIKit
 

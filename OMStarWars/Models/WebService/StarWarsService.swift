@@ -8,7 +8,7 @@ class StarWarsService {
     static let ServerError = "ServerError"
     static let MessageLocalization = "Messages"
     
-    let parser: StarWarsParser
+    private let parser: StarWarsParser
     
     /**
      * Initialize the service.
