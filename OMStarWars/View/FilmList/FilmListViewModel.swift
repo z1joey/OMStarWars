@@ -25,7 +25,7 @@ class FilmListViewModel {
      * Get the films from the web service.
      */
     func getFilms(withLoadingEffect showLoadingEffect: @escaping (Bool) -> Void, withError showError: @escaping (AnyError) -> Void) {
-        let getFilmsReducer = createGetFilmsProducer().on(starting: {
+        let getFilmsProducer = createGetFilmsProducer().on(starting: {
             showLoadingEffect(true)
         }, failed: { (error) in
             showError(error)
@@ -35,9 +35,10 @@ class FilmListViewModel {
         }) {
             films in
             self.films = films
+            self.reloadSignal.1.send(value: ())
             self.reloadSignal.1.sendCompleted()
         }
-        getFilmsReducer.start()
+        getFilmsProducer.start()
     }
     
     /**

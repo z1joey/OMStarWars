@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		282400401E8CA9C200E2BBB5 /* FilmListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2824003F1E8CA9C200E2BBB5 /* FilmListCellViewModel.swift */; };
+		282400421E8CC7DC00E2BBB5 /* StarWarsServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282400411E8CC7DC00E2BBB5 /* StarWarsServiceError.swift */; };
+		282400451E8CD24500E2BBB5 /* FilmDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282400441E8CD24500E2BBB5 /* FilmDetailViewController.swift */; };
 		283B2D251E8C65A6005303CE /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B2D1E1E8C65A6005303CE /* Film.swift */; };
 		283B2D271E8C65A6005303CE /* StarWarsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B2D221E8C65A6005303CE /* StarWarsAPI.swift */; };
 		283B2D281E8C65A6005303CE /* StarWarsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B2D231E8C65A6005303CE /* StarWarsParser.swift */; };
@@ -48,6 +50,8 @@
 /* Begin PBXFileReference section */
 		11A3CACB7A0ABC615B58787A /* Pods_OMStarWars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMStarWars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2824003F1E8CA9C200E2BBB5 /* FilmListCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmListCellViewModel.swift; sourceTree = "<group>"; };
+		282400411E8CC7DC00E2BBB5 /* StarWarsServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsServiceError.swift; sourceTree = "<group>"; };
+		282400441E8CD24500E2BBB5 /* FilmDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmDetailViewController.swift; sourceTree = "<group>"; };
 		283B2D1E1E8C65A6005303CE /* Film.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
 		283B2D221E8C65A6005303CE /* StarWarsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsAPI.swift; sourceTree = "<group>"; };
 		283B2D231E8C65A6005303CE /* StarWarsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsParser.swift; sourceTree = "<group>"; };
@@ -109,6 +113,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		282400431E8CD11700E2BBB5 /* FilmDetail */ = {
+			isa = PBXGroup;
+			children = (
+				282400441E8CD24500E2BBB5 /* FilmDetailViewController.swift */,
+			);
+			path = FilmDetail;
+			sourceTree = "<group>";
+		};
 		283B2D1C1E8C65A6005303CE /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +144,7 @@
 				283B2D221E8C65A6005303CE /* StarWarsAPI.swift */,
 				283B2D231E8C65A6005303CE /* StarWarsParser.swift */,
 				283B2D241E8C65A6005303CE /* StarWarsService.swift */,
+				282400411E8CC7DC00E2BBB5 /* StarWarsServiceError.swift */,
 			);
 			path = WebService;
 			sourceTree = "<group>";
@@ -139,6 +152,7 @@
 		283B2D2B1E8C674C005303CE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				282400431E8CD11700E2BBB5 /* FilmDetail */,
 				283B2D3F1E8C8CB1005303CE /* FilmList */,
 				283B2D3B1E8C6AED005303CE /* Message.swift */,
 				283B2D2D1E8C674C005303CE /* Main.storyboard */,
@@ -433,8 +447,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				283B2D291E8C65A6005303CE /* StarWarsService.swift in Sources */,
+				282400451E8CD24500E2BBB5 /* FilmDetailViewController.swift in Sources */,
 				283B2D471E8C8F15005303CE /* FilmList.swift in Sources */,
 				283B2D441E8C8CB1005303CE /* FilmListViewController.swift in Sources */,
+				282400421E8CC7DC00E2BBB5 /* StarWarsServiceError.swift in Sources */,
 				283B2D3C1E8C6AED005303CE /* Message.swift in Sources */,
 				283B2D451E8C8CB1005303CE /* FilmListViewModel.swift in Sources */,
 				282400401E8CA9C200E2BBB5 /* FilmListCellViewModel.swift in Sources */,

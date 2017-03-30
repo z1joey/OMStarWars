@@ -19,9 +19,9 @@ class FilmListViewController: UIViewController {
         }) { (error) in
             self.showError(error: error)
         }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            self.filmList.reloadData()
-        }
+        filmList.reactive.trigger(for: tableView:tableView:)
+        
+        tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     }
 
 
