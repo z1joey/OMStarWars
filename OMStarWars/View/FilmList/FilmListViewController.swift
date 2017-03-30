@@ -10,14 +10,13 @@ class FilmListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        loadingIndicator.isHidden = true
         let viewModel = FilmListViewModel()
         filmList.viewModel = viewModel
+        loadingIndicator.reactive.isHidden <~ viewModel.isReloaded
+        filmList.reactive.reloadData <~ viewModel.isReadyForReloading
         viewModel.getFilms() { (error) in
             self.showError(error: error)
         }
-        loadingIndicator.reactive.isHidden <~ viewModel.isReloaded
-        filmList.reactive.reloadData <~ viewModel.isReadyForReloading
 //        filmList.reactive.trigger(for: #selector(tableView(_:))
     }
 

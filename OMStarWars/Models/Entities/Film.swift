@@ -4,6 +4,7 @@
  * The information about a film.
  */
 class Film {
+    
     var title: String
     var episodeId: Int
     var openingCrawl: String
@@ -19,6 +20,7 @@ class Film {
         producer = ""
         releaseDate = Date()
     }
+    
 }
 
 import Foundation

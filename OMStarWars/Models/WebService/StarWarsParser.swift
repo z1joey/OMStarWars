@@ -4,6 +4,7 @@
  * Parse the data returned by the server.
  */
 class StarWarsParser {
+    
     /**
      * Parse a list of films.
      */
@@ -36,6 +37,7 @@ class StarWarsParser {
         }
         return film
     }
+    
 }
 
 import Foundation

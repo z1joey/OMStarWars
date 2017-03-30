@@ -25,6 +25,7 @@ class FilmList : UITableView, UITableViewDataSource, UITableViewDelegate {
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return viewModel.filmAmount
     }
+    
 }
 
 import UIKit
