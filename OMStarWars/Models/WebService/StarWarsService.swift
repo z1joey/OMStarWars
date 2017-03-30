@@ -33,7 +33,7 @@ class StarWarsService {
                 completion(nil, StarWarsServiceError.parser)
                 return
             }
-            let films = self.parser.parseFilms(object: object!)
+            let films = self.parser.parseFilms(fromObject: object!)
             if films == nil {
                 completion(nil, StarWarsServiceError.parser)
                 return

@@ -25,23 +25,58 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dNJ-Aw-6Iz">
                                 <rect key="frame" x="16" y="20" width="343" height="647"/>
                                 <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Opm-mJ-O2M" customClass="FilmList" customModule="OMStarWars" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="647"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <prototypes>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FilmListCell" id="8rT-WF-sgL" customClass="FilmListCell" customModule="OMStarWars" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="28" width="343" height="44"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8rT-WF-sgL" id="zip-Se-yGg">
+                                                    <rect key="frame" x="0.0" y="0.0" width="343" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S14-Jd-vQ6">
+                                                            <rect key="frame" x="0.0" y="0.0" width="343" height="43"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mrv-NW-7RG">
+                                                                    <rect key="frame" x="46" y="11" width="228" height="21"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </view>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="S14-Jd-vQ6" firstAttribute="leading" secondItem="zip-Se-yGg" secondAttribute="leading" id="ERM-7W-dIQ"/>
+                                                        <constraint firstAttribute="bottom" secondItem="S14-Jd-vQ6" secondAttribute="bottom" id="Stv-zh-BZP"/>
+                                                        <constraint firstItem="S14-Jd-vQ6" firstAttribute="top" secondItem="zip-Se-yGg" secondAttribute="top" id="Y3d-sw-c36"/>
+                                                        <constraint firstAttribute="trailing" secondItem="S14-Jd-vQ6" secondAttribute="trailing" id="hPq-z2-Bs3"/>
+                                                    </constraints>
+                                                </tableViewCellContentView>
+                                                <connections>
+                                                    <outlet property="titleLabel" destination="Mrv-NW-7RG" id="BRA-uS-kJV"/>
+                                                </connections>
+                                            </tableViewCell>
+                                        </prototypes>
+                                    </tableView>
                                     <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="m0N-BD-0WV">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="647"/>
                                     </activityIndicatorView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSJ-63-UVz">
-                                        <rect key="frame" x="125" y="176" width="42" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="m0N-BD-0WV" secondAttribute="trailing" id="JJu-Sc-YFf"/>
+                                    <constraint firstItem="Opm-mJ-O2M" firstAttribute="leading" secondItem="dNJ-Aw-6Iz" secondAttribute="leading" id="ML0-uM-lz8"/>
                                     <constraint firstAttribute="bottom" secondItem="m0N-BD-0WV" secondAttribute="bottom" id="SRg-fV-Em3"/>
+                                    <constraint firstItem="Opm-mJ-O2M" firstAttribute="top" secondItem="dNJ-Aw-6Iz" secondAttribute="top" id="WL5-9s-7Et"/>
                                     <constraint firstItem="m0N-BD-0WV" firstAttribute="leading" secondItem="dNJ-Aw-6Iz" secondAttribute="leading" id="a54-M3-VLx"/>
+                                    <constraint firstAttribute="bottom" secondItem="Opm-mJ-O2M" secondAttribute="bottom" id="aRz-W1-5nN"/>
                                     <constraint firstItem="m0N-BD-0WV" firstAttribute="top" secondItem="dNJ-Aw-6Iz" secondAttribute="top" id="f6l-IQ-kkv"/>
+                                    <constraint firstAttribute="trailing" secondItem="Opm-mJ-O2M" secondAttribute="trailing" id="uLj-qd-hOG"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -54,12 +89,13 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="label" destination="WSJ-63-UVz" id="jEj-Iy-cjp"/>
+                        <outlet property="filmList" destination="Opm-mJ-O2M" id="Nk6-pm-a5Q"/>
                         <outlet property="loadingIndicator" destination="m0N-BD-0WV" id="sx2-SG-hIl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="72.799999999999997" y="38.23088455772114"/>
         </scene>
     </scenes>
 </document>
