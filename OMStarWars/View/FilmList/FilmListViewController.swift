@@ -13,15 +13,12 @@ class FilmListViewController: UIViewController {
         loadingIndicator.isHidden = true
         let viewModel = FilmListViewModel()
         filmList.viewModel = viewModel
-        filmList.reactive.reloadData <~ viewModel.isReadyForReloading
-        viewModel.getFilms(withLoadingEffect: { (isLoading) in
-            self.loadingIndicator.isHidden = !isLoading
-        }) { (error) in
+        viewModel.getFilms() { (error) in
             self.showError(error: error)
         }
-        filmList.reactive.trigger(for: tableView:tableView:)
-        
-        tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+        loadingIndicator.reactive.isHidden <~ viewModel.isReloaded
+        filmList.reactive.reloadData <~ viewModel.isReadyForReloading
+//        filmList.reactive.trigger(for: #selector(tableView(_:))
     }
 
 

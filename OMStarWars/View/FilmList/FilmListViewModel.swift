@@ -7,38 +7,42 @@ class FilmListViewModel {
     
     private let service: StarWarsService
     private var films: Array<Film>
-    private var reloadSignal: (Signal<(), NoError>, Observer<(), NoError>)
+    private var getFilmsPipe: (Signal<Array<Film>, AnyError>, Observer<Array<Film>, AnyError>)
     var filmAmount: Int {
         return films.count
     }
     var isReadyForReloading: Signal<(), NoError> {
-        return reloadSignal.0
+        return getFilmsPipe.0.map({ _ -> () in
+            return ()
+        }).flatMapError { error -> SignalProducer<(), NoError> in
+            return SignalProducer<(), NoError>.empty
+        }
     }
+    var isReloaded: MutableProperty<Bool>
     
     init() {
         service = StarWarsService()
         films = []
-        reloadSignal = Signal<(), NoError>.pipe()
+        getFilmsPipe = Signal<Array<Film>, AnyError>.pipe()
+        isReloaded = MutableProperty<Bool>(true)
     }
     
     /**
      * Get the films from the web service.
      */
-    func getFilms(withLoadingEffect showLoadingEffect: @escaping (Bool) -> Void, withError showError: @escaping (AnyError) -> Void) {
-        let getFilmsProducer = createGetFilmsProducer().on(starting: {
-            showLoadingEffect(true)
+    func getFilms(withError showError: @escaping (AnyError) -> Void) {
+        let getFilmsSignalProducer = createGetFilmsProducer().on(starting: {
+            self.isReloaded.value = false
         }, failed: { (error) in
             showError(error)
-            showLoadingEffect(false)
+            self.isReloaded.value = true
         }, completed: {
-            showLoadingEffect(false)
+            self.isReloaded.value = true
         }) {
             films in
             self.films = films
-            self.reloadSignal.1.send(value: ())
-            self.reloadSignal.1.sendCompleted()
         }
-        getFilmsProducer.start()
+        getFilmsSignalProducer.start()
     }
     
     /**
@@ -53,15 +57,14 @@ class FilmListViewModel {
      * Create a signal producer.
      */
     private func createGetFilmsProducer() -> SignalProducer<Array<Film>, AnyError> {
-        let (signal, observer) = Signal<Array<Film>, AnyError>.pipe()
-        let producer = SignalProducer<Array<Film>, AnyError>(signal)
+        let producer = SignalProducer<Array<Film>, AnyError>(getFilmsPipe.0)
         service.getFilms { (films, error) in
             if error != nil {
-                observer.send(error: AnyError(error!))
+                self.getFilmsPipe.1.send(error: AnyError(error!))
             } else if films != nil {
-                observer.send(value: films!)
+                self.getFilmsPipe.1.send(value: films!)
             }
-            observer.sendCompleted()
+            self.getFilmsPipe.1.sendCompleted()
         }
         return producer
     }
