@@ -4,9 +4,11 @@
  * All api information.
  */
 class StarWarsAPI {
+    
     static let Server = "http://swapi.co"
     static let Version = "/api"
     static let getFilms = (url: "/films", method: "GET")
+    
 }
 
 import Foundation

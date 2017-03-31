@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		283C6A881E8B782400EDFC6F /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C6A871E8B782400EDFC6F /* Film.swift */; };
-		283C6A8C1E8B791800EDFC6F /* StarWarsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C6A8B1E8B791800EDFC6F /* StarWarsAPI.swift */; };
-		283C6A8E1E8B798B00EDFC6F /* StarWarsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C6A8D1E8B798B00EDFC6F /* StarWarsParser.swift */; };
-		283C6A901E8B7A7A00EDFC6F /* StarWarsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C6A8F1E8B7A7A00EDFC6F /* StarWarsService.swift */; };
+		282400401E8CA9C200E2BBB5 /* FilmListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2824003F1E8CA9C200E2BBB5 /* FilmListCellViewModel.swift */; };
+		282400421E8CC7DC00E2BBB5 /* StarWarsServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282400411E8CC7DC00E2BBB5 /* StarWarsServiceError.swift */; };
+		282400451E8CD24500E2BBB5 /* FilmDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282400441E8CD24500E2BBB5 /* FilmDetailViewController.swift */; };
+		283B2D251E8C65A6005303CE /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B2D1E1E8C65A6005303CE /* Film.swift */; };
+		283B2D271E8C65A6005303CE /* StarWarsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B2D221E8C65A6005303CE /* StarWarsAPI.swift */; };
+		283B2D281E8C65A6005303CE /* StarWarsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B2D231E8C65A6005303CE /* StarWarsParser.swift */; };
+		283B2D291E8C65A6005303CE /* StarWarsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B2D241E8C65A6005303CE /* StarWarsService.swift */; };
+		283B2D2F1E8C674C005303CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283B2D2D1E8C674C005303CE /* Main.storyboard */; };
+		283B2D311E8C6755005303CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283B2D301E8C6755005303CE /* Assets.xcassets */; };
+		283B2D361E8C6760005303CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B2D331E8C6760005303CE /* AppDelegate.swift */; };
+		283B2D371E8C6760005303CE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 283B2D341E8C6760005303CE /* Info.plist */; };
+		283B2D381E8C6760005303CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283B2D351E8C6760005303CE /* LaunchScreen.storyboard */; };
+		283B2D3C1E8C6AED005303CE /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B2D3B1E8C6AED005303CE /* Message.swift */; };
+		283B2D441E8C8CB1005303CE /* FilmListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B2D411E8C8CB1005303CE /* FilmListViewController.swift */; };
+		283B2D451E8C8CB1005303CE /* FilmListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B2D421E8C8CB1005303CE /* FilmListViewModel.swift */; };
+		283B2D471E8C8F15005303CE /* FilmList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B2D461E8C8F15005303CE /* FilmList.swift */; };
+		283B2D491E8C8F27005303CE /* FilmListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B2D481E8C8F27005303CE /* FilmListCell.swift */; };
 		283C6A941E8B7D7600EDFC6F /* Messages.strings in Resources */ = {isa = PBXBuildFile; fileRef = 283C6A931E8B7D7600EDFC6F /* Messages.strings */; };
-		28440B8A1E8A2EB50008651E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28440B891E8A2EB50008651E /* AppDelegate.swift */; };
-		28440B8C1E8A2EB50008651E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28440B8B1E8A2EB50008651E /* ViewController.swift */; };
-		28440B8F1E8A2EB50008651E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28440B8D1E8A2EB50008651E /* Main.storyboard */; };
-		28440B911E8A2EB50008651E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28440B901E8A2EB50008651E /* Assets.xcassets */; };
-		28440B941E8A2EB50008651E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28440B921E8A2EB50008651E /* LaunchScreen.storyboard */; };
 		28440B9F1E8A2EB50008651E /* OMStarWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28440B9E1E8A2EB50008651E /* OMStarWarsTests.swift */; };
 		28440BAA1E8A2EB50008651E /* OMStarWarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28440BA91E8A2EB50008651E /* OMStarWarsUITests.swift */; };
+		28B48E291E8DD9FD001A0E41 /* FilmDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B48E281E8DD9FD001A0E41 /* FilmDetailViewModel.swift */; };
+		28B48E2B1E8DE773001A0E41 /* ViewTexts.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28B48E2A1E8DE773001A0E41 /* ViewTexts.strings */; };
 		E5E7E8A9D40687E7DFE7A6A3 /* Pods_OMStarWars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11A3CACB7A0ABC615B58787A /* Pods_OMStarWars.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,24 +51,33 @@
 
 /* Begin PBXFileReference section */
 		11A3CACB7A0ABC615B58787A /* Pods_OMStarWars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMStarWars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		283C6A871E8B782400EDFC6F /* Film.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
-		283C6A8B1E8B791800EDFC6F /* StarWarsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsAPI.swift; sourceTree = "<group>"; };
-		283C6A8D1E8B798B00EDFC6F /* StarWarsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsParser.swift; sourceTree = "<group>"; };
-		283C6A8F1E8B7A7A00EDFC6F /* StarWarsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsService.swift; sourceTree = "<group>"; };
+		2824003F1E8CA9C200E2BBB5 /* FilmListCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmListCellViewModel.swift; sourceTree = "<group>"; };
+		282400411E8CC7DC00E2BBB5 /* StarWarsServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsServiceError.swift; sourceTree = "<group>"; };
+		282400441E8CD24500E2BBB5 /* FilmDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmDetailViewController.swift; sourceTree = "<group>"; };
+		283B2D1E1E8C65A6005303CE /* Film.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		283B2D221E8C65A6005303CE /* StarWarsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsAPI.swift; sourceTree = "<group>"; };
+		283B2D231E8C65A6005303CE /* StarWarsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsParser.swift; sourceTree = "<group>"; };
+		283B2D241E8C65A6005303CE /* StarWarsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsService.swift; sourceTree = "<group>"; };
+		283B2D2D1E8C674C005303CE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		283B2D301E8C6755005303CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		283B2D331E8C6760005303CE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		283B2D341E8C6760005303CE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		283B2D351E8C6760005303CE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		283B2D3B1E8C6AED005303CE /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		283B2D411E8C8CB1005303CE /* FilmListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmListViewController.swift; sourceTree = "<group>"; };
+		283B2D421E8C8CB1005303CE /* FilmListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmListViewModel.swift; sourceTree = "<group>"; };
+		283B2D461E8C8F15005303CE /* FilmList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmList.swift; sourceTree = "<group>"; };
+		283B2D481E8C8F27005303CE /* FilmListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmListCell.swift; sourceTree = "<group>"; };
 		283C6A931E8B7D7600EDFC6F /* Messages.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Messages.strings; sourceTree = "<group>"; };
 		28440B861E8A2EB50008651E /* OMStarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMStarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		28440B891E8A2EB50008651E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28440B8B1E8A2EB50008651E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		28440B8E1E8A2EB50008651E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		28440B901E8A2EB50008651E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		28440B931E8A2EB50008651E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		28440B951E8A2EB50008651E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28440B9A1E8A2EB50008651E /* OMStarWarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMStarWarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28440B9E1E8A2EB50008651E /* OMStarWarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMStarWarsTests.swift; sourceTree = "<group>"; };
 		28440BA01E8A2EB50008651E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28440BA51E8A2EB50008651E /* OMStarWarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMStarWarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28440BA91E8A2EB50008651E /* OMStarWarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMStarWarsUITests.swift; sourceTree = "<group>"; };
 		28440BAB1E8A2EB50008651E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28B48E281E8DD9FD001A0E41 /* FilmDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmDetailViewModel.swift; sourceTree = "<group>"; };
+		28B48E2A1E8DE773001A0E41 /* ViewTexts.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = ViewTexts.strings; sourceTree = "<group>"; };
 		4E7A08F58FC5DFAB5D092FD8 /* Pods-OMStarWars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMStarWars.release.xcconfig"; path = "Pods/Target Support Files/Pods-OMStarWars/Pods-OMStarWars.release.xcconfig"; sourceTree = "<group>"; };
 		9E392DEAD578835041FE90B3 /* Pods-OMStarWars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMStarWars.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OMStarWars/Pods-OMStarWars.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,36 +117,80 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		283C6A841E8B781800EDFC6F /* Modules */ = {
+		282400431E8CD11700E2BBB5 /* FilmDetail */ = {
 			isa = PBXGroup;
 			children = (
-				283C6A851E8B781800EDFC6F /* Entities */,
-				283C6A861E8B781800EDFC6F /* WebService */,
+				282400441E8CD24500E2BBB5 /* FilmDetailViewController.swift */,
+				28B48E281E8DD9FD001A0E41 /* FilmDetailViewModel.swift */,
 			);
-			path = Modules;
+			path = FilmDetail;
 			sourceTree = "<group>";
 		};
-		283C6A851E8B781800EDFC6F /* Entities */ = {
+		283B2D1C1E8C65A6005303CE /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				283C6A871E8B782400EDFC6F /* Film.swift */,
+				283B2D1D1E8C65A6005303CE /* Entities */,
+				283B2D211E8C65A6005303CE /* WebService */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		283B2D1D1E8C65A6005303CE /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				283B2D1E1E8C65A6005303CE /* Film.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
 		};
-		283C6A861E8B781800EDFC6F /* WebService */ = {
+		283B2D211E8C65A6005303CE /* WebService */ = {
 			isa = PBXGroup;
 			children = (
-				283C6A8B1E8B791800EDFC6F /* StarWarsAPI.swift */,
-				283C6A8D1E8B798B00EDFC6F /* StarWarsParser.swift */,
-				283C6A8F1E8B7A7A00EDFC6F /* StarWarsService.swift */,
+				283B2D221E8C65A6005303CE /* StarWarsAPI.swift */,
+				283B2D231E8C65A6005303CE /* StarWarsParser.swift */,
+				283B2D241E8C65A6005303CE /* StarWarsService.swift */,
+				282400411E8CC7DC00E2BBB5 /* StarWarsServiceError.swift */,
 			);
 			path = WebService;
+			sourceTree = "<group>";
+		};
+		283B2D2B1E8C674C005303CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				282400431E8CD11700E2BBB5 /* FilmDetail */,
+				283B2D3F1E8C8CB1005303CE /* FilmList */,
+				283B2D3B1E8C6AED005303CE /* Message.swift */,
+				283B2D2D1E8C674C005303CE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		283B2D321E8C6760005303CE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				283B2D331E8C6760005303CE /* AppDelegate.swift */,
+				283B2D341E8C6760005303CE /* Info.plist */,
+				283B2D351E8C6760005303CE /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		283B2D3F1E8C8CB1005303CE /* FilmList */ = {
+			isa = PBXGroup;
+			children = (
+				283B2D411E8C8CB1005303CE /* FilmListViewController.swift */,
+				283B2D461E8C8F15005303CE /* FilmList.swift */,
+				283B2D481E8C8F27005303CE /* FilmListCell.swift */,
+				283B2D421E8C8CB1005303CE /* FilmListViewModel.swift */,
+				2824003F1E8CA9C200E2BBB5 /* FilmListCellViewModel.swift */,
+			);
+			path = FilmList;
 			sourceTree = "<group>";
 		};
 		283C6A911E8B7D6400EDFC6F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				283B2D301E8C6755005303CE /* Assets.xcassets */,
 				283C6A921E8B7D6400EDFC6F /* Strings */,
 			);
 			path = Resources;
@@ -137,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				283C6A931E8B7D7600EDFC6F /* Messages.strings */,
+				28B48E2A1E8DE773001A0E41 /* ViewTexts.strings */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -166,14 +230,10 @@
 		28440B881E8A2EB50008651E /* OMStarWars */ = {
 			isa = PBXGroup;
 			children = (
+				283B2D321E8C6760005303CE /* App */,
+				283B2D2B1E8C674C005303CE /* View */,
+				283B2D1C1E8C65A6005303CE /* Models */,
 				283C6A911E8B7D6400EDFC6F /* Resources */,
-				283C6A841E8B781800EDFC6F /* Modules */,
-				28440B891E8A2EB50008651E /* AppDelegate.swift */,
-				28440B8B1E8A2EB50008651E /* ViewController.swift */,
-				28440B8D1E8A2EB50008651E /* Main.storyboard */,
-				28440B901E8A2EB50008651E /* Assets.xcassets */,
-				28440B921E8A2EB50008651E /* LaunchScreen.storyboard */,
-				28440B951E8A2EB50008651E /* Info.plist */,
 			);
 			path = OMStarWars;
 			sourceTree = "<group>";
@@ -315,10 +375,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283B2D371E8C6760005303CE /* Info.plist in Resources */,
 				283C6A941E8B7D7600EDFC6F /* Messages.strings in Resources */,
-				28440B941E8A2EB50008651E /* LaunchScreen.storyboard in Resources */,
-				28440B911E8A2EB50008651E /* Assets.xcassets in Resources */,
-				28440B8F1E8A2EB50008651E /* Main.storyboard in Resources */,
+				28B48E2B1E8DE773001A0E41 /* ViewTexts.strings in Resources */,
+				283B2D311E8C6755005303CE /* Assets.xcassets in Resources */,
+				283B2D381E8C6760005303CE /* LaunchScreen.storyboard in Resources */,
+				283B2D2F1E8C674C005303CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,12 +453,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				283C6A8C1E8B791800EDFC6F /* StarWarsAPI.swift in Sources */,
-				28440B8C1E8A2EB50008651E /* ViewController.swift in Sources */,
-				283C6A881E8B782400EDFC6F /* Film.swift in Sources */,
-				28440B8A1E8A2EB50008651E /* AppDelegate.swift in Sources */,
-				283C6A901E8B7A7A00EDFC6F /* StarWarsService.swift in Sources */,
-				283C6A8E1E8B798B00EDFC6F /* StarWarsParser.swift in Sources */,
+				283B2D291E8C65A6005303CE /* StarWarsService.swift in Sources */,
+				282400451E8CD24500E2BBB5 /* FilmDetailViewController.swift in Sources */,
+				283B2D471E8C8F15005303CE /* FilmList.swift in Sources */,
+				283B2D441E8C8CB1005303CE /* FilmListViewController.swift in Sources */,
+				282400421E8CC7DC00E2BBB5 /* StarWarsServiceError.swift in Sources */,
+				283B2D3C1E8C6AED005303CE /* Message.swift in Sources */,
+				283B2D451E8C8CB1005303CE /* FilmListViewModel.swift in Sources */,
+				282400401E8CA9C200E2BBB5 /* FilmListCellViewModel.swift in Sources */,
+				283B2D271E8C65A6005303CE /* StarWarsAPI.swift in Sources */,
+				283B2D491E8C8F27005303CE /* FilmListCell.swift in Sources */,
+				283B2D361E8C6760005303CE /* AppDelegate.swift in Sources */,
+				283B2D251E8C65A6005303CE /* Film.swift in Sources */,
+				283B2D281E8C65A6005303CE /* StarWarsParser.swift in Sources */,
+				28B48E291E8DD9FD001A0E41 /* FilmDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,25 +500,6 @@
 			targetProxy = 28440BA61E8A2EB50008651E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		28440B8D1E8A2EB50008651E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				28440B8E1E8A2EB50008651E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		28440B921E8A2EB50008651E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				28440B931E8A2EB50008651E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		28440BAC1E8A2EB50008651E /* Debug */ = {
@@ -550,7 +601,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y2XN2Z2HA2;
-				INFOPLIST_FILE = OMStarWars/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OMStarWars/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.outware.OMStarWars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -564,7 +615,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y2XN2Z2HA2;
-				INFOPLIST_FILE = OMStarWars/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OMStarWars/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.outware.OMStarWars;
 				PRODUCT_NAME = "$(TARGET_NAME)";

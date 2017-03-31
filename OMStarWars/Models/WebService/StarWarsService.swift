@@ -8,7 +8,7 @@ class StarWarsService {
     static let ServerError = "ServerError"
     static let MessageLocalization = "Messages"
     
-    let parser: StarWarsParser
+    private let parser: StarWarsParser
     
     /**
      * Initialize the service.
@@ -33,7 +33,7 @@ class StarWarsService {
                 completion(nil, StarWarsServiceError.parser)
                 return
             }
-            let films = self.parser.parseFilms(object: object!)
+            let films = self.parser.parseFilms(fromObject: object!)
             if films == nil {
                 completion(nil, StarWarsServiceError.parser)
                 return
@@ -54,17 +54,7 @@ class StarWarsService {
         }
         task.resume()
     }
-}
-
-/**
- * Web service related errors.
- */
-enum StarWarsServiceError: LocalizedError {
-    case parser
     
-    public var errorDescription: String? {
-        return NSLocalizedString(StarWarsService.ServerError, tableName: StarWarsService.MessageLocalization, comment: "")
-    }
 }
 
 import Foundation
