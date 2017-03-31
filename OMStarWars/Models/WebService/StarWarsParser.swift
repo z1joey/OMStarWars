@@ -27,6 +27,9 @@ class StarWarsParser {
         film.title = object["title"].stringValue
         film.episodeID = object["episode_id"].intValue
         film.openingCrawl = object["opening_crawl"].stringValue
+        film.openingCrawl = film.openingCrawl.replacingOccurrences(of: "\r\n\r\n", with: "{NEWPARAGRAPH}")
+        film.openingCrawl = film.openingCrawl.replacingOccurrences(of: "\r\n", with: "")
+        film.openingCrawl = film.openingCrawl.replacingOccurrences(of: "{NEWPARAGRAPH}", with: "\r\n\r\n")
         film.director = object["director"].stringValue
         film.producer = object["producer"].stringValue
         let formatter = DateFormatter()

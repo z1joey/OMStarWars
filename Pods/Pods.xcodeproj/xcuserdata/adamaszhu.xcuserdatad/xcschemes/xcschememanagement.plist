@@ -9,16 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>NUI.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>NUIParse.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-OMStarWars.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -47,42 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>08787C2D724CB51F87E7E66B677E6806</key>
+		<key>054A60C24AE3AA3027B7E1AB3939E76D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>111F3F7797B0A46D6791120D203B76D2</key>
+		<key>14C572B5653FDB1A18A4EA64DCAB6AC3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4C395A40235AA7EAA898D42171D61BC2</key>
+		<key>4911A40F88BF3CD830203ED0C88F8DD6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>556B37690241AD9CE21FD04362A1F5DF</key>
+		<key>4D31214A0C4C309710606BA01D8BA735</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9C8D2E78EB157BDAFB1E1399A89B6D61</key>
+		<key>8331123BC9BE537559A82B8591C9324D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E57E3670A33965FE80E14E22C41BA6DB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F1158623AF85E7B90F1047F751CD6D28</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,9 +14,6 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - NUI (0.5.5):
-    - NUIParse
-  - NUIParse (1.3)
   - ReactiveCocoa (5.0.1):
     - ReactiveSwift (~> 1.1)
   - ReactiveSwift (1.1.0):
@@ -26,19 +23,16 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - NUI
   - ReactiveCocoa
   - SwiftyJSON
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  NUI: 53de7278003235deb2a375fe6f04c7a3aa3e49eb
-  NUIParse: 2e3885ba7807477266396292626bd387d34c2338
   ReactiveCocoa: f577006aa6c7b0b08020109ebaae3b77ada00adc
   ReactiveSwift: 2f4e4a02e5a5c87ea63f5fe667163ce2a67cbb57
   Result: 2453a22e5c5b11c0c3a478736e82cd02f763b781
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 0c1ce869c3c96e8d02206537a57ddb3d4d7d8ff7
+PODFILE CHECKSUM: d6d7fda6ee0faea72102d45da8b6d8667faba8d0
 
 COCOAPODS: 1.2.0
