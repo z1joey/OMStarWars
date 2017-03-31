@@ -6,7 +6,7 @@
 class Film {
     
     var title: String
-    var episodeId: Int
+    var episodeID: Int
     var openingCrawl: String
     var director: String
     var producer: String
@@ -14,7 +14,7 @@ class Film {
     
     init() {
         title = ""
-        episodeId = 0
+        episodeID = 0
         openingCrawl = ""
         director = ""
         producer = ""

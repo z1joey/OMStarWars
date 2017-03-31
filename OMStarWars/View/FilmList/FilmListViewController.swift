@@ -17,7 +17,6 @@ class FilmListViewController: UIViewController {
         viewModel.getFilms() { (error) in
             self.showError(error: error)
         }
-//        filmList.reactive.trigger(for: #selector(tableView(_:))
     }
 
 

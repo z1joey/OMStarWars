@@ -6,6 +6,7 @@
 class FilmListCell : UITableViewCell {
     
     @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var episodeIDLabel: UILabel!
     
     var viewModel: FilmListCellViewModel? {
         didSet{
@@ -13,6 +14,7 @@ class FilmListCell : UITableViewCell {
                 return
             }
             titleLabel.text = viewModel!.title
+            episodeIDLabel.text = viewModel!.episodeID
         }
     }
     

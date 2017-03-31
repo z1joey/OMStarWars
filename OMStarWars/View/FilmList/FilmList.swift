@@ -26,6 +26,9 @@ class FilmList : UITableView, UITableViewDataSource, UITableViewDelegate {
         return viewModel.filmAmount
     }
     
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    }
+    
 }
 
 import UIKit
