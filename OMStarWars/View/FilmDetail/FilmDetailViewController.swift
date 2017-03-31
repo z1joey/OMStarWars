@@ -24,8 +24,8 @@ class FilmDetailViewController : UIViewController {
         self.directorLabel.text = viewModel!.director
         self.producerLabel.text = viewModel!.producer
         self.openingCrawlLabel.text = viewModel!.openingCrawl
-        let backGesture = UIPanGestureRecognizer(target: self, action: #selector(goBack))
-        
+        let backGesture = UISwipeGestureRecognizer(target: self, action: #selector(goBack))
+        backGesture.direction = .right
         self.view.addGestureRecognizer(backGesture)
     }
     
