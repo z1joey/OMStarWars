@@ -52,6 +52,14 @@ class FilmListViewModel {
     }
     
     /**
+     * Get a sub view model.
+     */
+    func getFilmDetailViewModel(atIndex index: Int) -> FilmDetailViewModel {
+        let film = films[index]
+        return FilmDetailViewModel(withFilm: film)
+    }
+    
+    /**
      * Create a signal producer.
      */
     private func createGetFilmsProducer() -> SignalProducer<Array<Film>, AnyError> {

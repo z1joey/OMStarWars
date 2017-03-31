@@ -27,6 +27,8 @@
 		283C6A941E8B7D7600EDFC6F /* Messages.strings in Resources */ = {isa = PBXBuildFile; fileRef = 283C6A931E8B7D7600EDFC6F /* Messages.strings */; };
 		28440B9F1E8A2EB50008651E /* OMStarWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28440B9E1E8A2EB50008651E /* OMStarWarsTests.swift */; };
 		28440BAA1E8A2EB50008651E /* OMStarWarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28440BA91E8A2EB50008651E /* OMStarWarsUITests.swift */; };
+		28B48E291E8DD9FD001A0E41 /* FilmDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B48E281E8DD9FD001A0E41 /* FilmDetailViewModel.swift */; };
+		28B48E2B1E8DE773001A0E41 /* ViewTexts.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28B48E2A1E8DE773001A0E41 /* ViewTexts.strings */; };
 		E5E7E8A9D40687E7DFE7A6A3 /* Pods_OMStarWars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11A3CACB7A0ABC615B58787A /* Pods_OMStarWars.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +76,8 @@
 		28440BA51E8A2EB50008651E /* OMStarWarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMStarWarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28440BA91E8A2EB50008651E /* OMStarWarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMStarWarsUITests.swift; sourceTree = "<group>"; };
 		28440BAB1E8A2EB50008651E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28B48E281E8DD9FD001A0E41 /* FilmDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmDetailViewModel.swift; sourceTree = "<group>"; };
+		28B48E2A1E8DE773001A0E41 /* ViewTexts.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = ViewTexts.strings; sourceTree = "<group>"; };
 		4E7A08F58FC5DFAB5D092FD8 /* Pods-OMStarWars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMStarWars.release.xcconfig"; path = "Pods/Target Support Files/Pods-OMStarWars/Pods-OMStarWars.release.xcconfig"; sourceTree = "<group>"; };
 		9E392DEAD578835041FE90B3 /* Pods-OMStarWars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMStarWars.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OMStarWars/Pods-OMStarWars.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				282400441E8CD24500E2BBB5 /* FilmDetailViewController.swift */,
+				28B48E281E8DD9FD001A0E41 /* FilmDetailViewModel.swift */,
 			);
 			path = FilmDetail;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				283C6A931E8B7D7600EDFC6F /* Messages.strings */,
+				28B48E2A1E8DE773001A0E41 /* ViewTexts.strings */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -371,6 +377,7 @@
 			files = (
 				283B2D371E8C6760005303CE /* Info.plist in Resources */,
 				283C6A941E8B7D7600EDFC6F /* Messages.strings in Resources */,
+				28B48E2B1E8DE773001A0E41 /* ViewTexts.strings in Resources */,
 				283B2D311E8C6755005303CE /* Assets.xcassets in Resources */,
 				283B2D381E8C6760005303CE /* LaunchScreen.storyboard in Resources */,
 				283B2D2F1E8C674C005303CE /* Main.storyboard in Resources */,
@@ -459,6 +466,7 @@
 				283B2D361E8C6760005303CE /* AppDelegate.swift in Sources */,
 				283B2D251E8C65A6005303CE /* Film.swift in Sources */,
 				283B2D281E8C65A6005303CE /* StarWarsParser.swift in Sources */,
+				28B48E291E8DD9FD001A0E41 /* FilmDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

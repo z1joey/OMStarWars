@@ -8,6 +8,7 @@ class FilmList : UITableView, UITableViewDataSource, UITableViewDelegate {
     static let FilmListCellID = "FilmListCell"
     
     var viewModel: FilmListViewModel
+    var showDetail: ((FilmDetailViewModel) -> Void)?
     
     required init?(coder aDecoder: NSCoder) {
         viewModel = FilmListViewModel()
@@ -27,6 +28,8 @@ class FilmList : UITableView, UITableViewDataSource, UITableViewDelegate {
     }
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let filmDetailViewModel = viewModel.getFilmDetailViewModel(atIndex: indexPath.row)
+        showDetail?(filmDetailViewModel)
     }
     
 }
