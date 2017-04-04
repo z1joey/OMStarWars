@@ -14,9 +14,9 @@
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "28440B851E8A2EB50008651E"
-                     BuildableName = "OMStarWars.app"
-                     BlueprintName = "OMStarWars"
+                     BlueprintIdentifier = "28440B991E8A2EB50008651E"
+                     BuildableName = "OMStarWarsTests.xctest"
+                     BlueprintName = "OMStarWarsTests"
                      ReferencedContainer = "container:OMStarWars.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
