@@ -22,7 +22,7 @@ class StarWarsParser {
     /**
      * Parse a film.
      */
-    func parseFilm(fromJSONObject object: JSON) -> Film {
+    private func parseFilm(fromJSONObject object: JSON) -> Film {
         let film = Film()
         film.title = object["title"].stringValue
         film.episodeID = object["episode_id"].intValue
