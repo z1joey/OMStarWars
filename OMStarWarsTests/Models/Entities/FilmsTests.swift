@@ -10,10 +10,19 @@ class FilmsTests: XCTestCase {
         super.tearDown()
     }
     
+    func testConstructor() {
+        let film = Film()
+        expect(film.title) == ""
+        expect(film.episodeID) == 0
+        expect(film.openingCrawl) == ""
+        expect(film.director) == ""
+        expect(film.producer) == ""
+        expect(film.releaseDate) != nil
+    }
+    
 }
 
-//import Nimble
-import ReactiveCocoa
+import Nimble
 import XCTest
 @testable import OMStarWars
 
