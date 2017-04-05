@@ -25,10 +25,10 @@
 		283B2D491E8C8F27005303CE /* FilmListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B2D481E8C8F27005303CE /* FilmListCell.swift */; };
 		283C6A941E8B7D7600EDFC6F /* Messages.strings in Resources */ = {isa = PBXBuildFile; fileRef = 283C6A931E8B7D7600EDFC6F /* Messages.strings */; };
 		28440BAA1E8A2EB50008651E /* OMStarWarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28440BA91E8A2EB50008651E /* OMStarWarsUITests.swift */; };
-		284ED4911E9482FA00D963FC /* StarWarsServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284ED4901E9482FA00D963FC /* StarWarsServiceTests.swift */; };
+		284ED4911E9482FA00D963FC /* StarWarsServiceSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284ED4901E9482FA00D963FC /* StarWarsServiceSpecs.swift */; };
 		28682E1F1E91CC6B001F7894 /* OMAssertionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28682E1E1E91CC6B001F7894 /* OMAssertionHandler.swift */; };
-		28682E241E91CF54001F7894 /* FilmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28682E231E91CF54001F7894 /* FilmsTests.swift */; };
-		28682E261E91D6E6001F7894 /* StarWarsParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28682E251E91D6E6001F7894 /* StarWarsParserTests.swift */; };
+		28682E241E91CF54001F7894 /* FilmsSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28682E231E91CF54001F7894 /* FilmsSpecs.swift */; };
+		28682E261E91D6E6001F7894 /* StarWarsParserSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28682E251E91D6E6001F7894 /* StarWarsParserSpecs.swift */; };
 		28B48E291E8DD9FD001A0E41 /* FilmDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B48E281E8DD9FD001A0E41 /* FilmDetailViewModel.swift */; };
 		28B48E2B1E8DE773001A0E41 /* ViewTexts.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28B48E2A1E8DE773001A0E41 /* ViewTexts.strings */; };
 		E5E7E8A9D40687E7DFE7A6A3 /* Pods_OMStarWars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11A3CACB7A0ABC615B58787A /* Pods_OMStarWars.framework */; };
@@ -78,10 +78,10 @@
 		28440BA51E8A2EB50008651E /* OMStarWarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMStarWarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28440BA91E8A2EB50008651E /* OMStarWarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMStarWarsUITests.swift; sourceTree = "<group>"; };
 		28440BAB1E8A2EB50008651E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		284ED4901E9482FA00D963FC /* StarWarsServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsServiceTests.swift; sourceTree = "<group>"; };
+		284ED4901E9482FA00D963FC /* StarWarsServiceSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsServiceSpecs.swift; sourceTree = "<group>"; };
 		28682E1E1E91CC6B001F7894 /* OMAssertionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OMAssertionHandler.swift; sourceTree = "<group>"; };
-		28682E231E91CF54001F7894 /* FilmsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmsTests.swift; sourceTree = "<group>"; };
-		28682E251E91D6E6001F7894 /* StarWarsParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsParserTests.swift; sourceTree = "<group>"; };
+		28682E231E91CF54001F7894 /* FilmsSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmsSpecs.swift; sourceTree = "<group>"; };
+		28682E251E91D6E6001F7894 /* StarWarsParserSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsParserSpecs.swift; sourceTree = "<group>"; };
 		28B48E281E8DD9FD001A0E41 /* FilmDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmDetailViewModel.swift; sourceTree = "<group>"; };
 		28B48E2A1E8DE773001A0E41 /* ViewTexts.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = ViewTexts.strings; sourceTree = "<group>"; };
 		4E7A08F58FC5DFAB5D092FD8 /* Pods-OMStarWars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMStarWars.release.xcconfig"; path = "Pods/Target Support Files/Pods-OMStarWars/Pods-OMStarWars.release.xcconfig"; sourceTree = "<group>"; };
@@ -281,7 +281,7 @@
 		28682E211E91CF44001F7894 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				28682E231E91CF54001F7894 /* FilmsTests.swift */,
+				28682E231E91CF54001F7894 /* FilmsSpecs.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -289,8 +289,8 @@
 		28682E221E91CF44001F7894 /* WebService */ = {
 			isa = PBXGroup;
 			children = (
-				28682E251E91D6E6001F7894 /* StarWarsParserTests.swift */,
-				284ED4901E9482FA00D963FC /* StarWarsServiceTests.swift */,
+				28682E251E91D6E6001F7894 /* StarWarsParserSpecs.swift */,
+				284ED4901E9482FA00D963FC /* StarWarsServiceSpecs.swift */,
 			);
 			path = WebService;
 			sourceTree = "<group>";
@@ -561,10 +561,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				284ED4911E9482FA00D963FC /* StarWarsServiceTests.swift in Sources */,
+				284ED4911E9482FA00D963FC /* StarWarsServiceSpecs.swift in Sources */,
 				28682E1F1E91CC6B001F7894 /* OMAssertionHandler.swift in Sources */,
-				28682E241E91CF54001F7894 /* FilmsTests.swift in Sources */,
-				28682E261E91D6E6001F7894 /* StarWarsParserTests.swift in Sources */,
+				28682E241E91CF54001F7894 /* FilmsSpecs.swift in Sources */,
+				28682E261E91D6E6001F7894 /* StarWarsParserSpecs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
