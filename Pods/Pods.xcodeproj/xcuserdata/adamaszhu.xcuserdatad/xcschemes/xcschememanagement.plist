@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-OMStarWarsTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ReactiveCocoa.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,37 +47,42 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>054A60C24AE3AA3027B7E1AB3939E76D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0921CC2F4398BE9A4F1CEACB30684B56</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0F228F3406D351A18B90056B3B52AF49</key>
+		<key>14C572B5653FDB1A18A4EA64DCAB6AC3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>28433C2B070A63DBBF067313CA28A404</key>
+		<key>3D8FEE129E8838CD16FB28305A033FED</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2DB19A2C2E788AC99A8D63AED9EC3071</key>
+		<key>4911A40F88BF3CD830203ED0C88F8DD6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A8A928DB8AC837883CC03FCE4973938A</key>
+		<key>4D31214A0C4C309710606BA01D8BA735</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8331123BC9BE537559A82B8591C9324D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D39CC0E8C1A25CAD7642720DCF8440D8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

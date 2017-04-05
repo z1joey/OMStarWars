@@ -12,7 +12,8 @@ class FilmsTests: XCTestCase {
     
 }
 
-import Nimble
+//import Nimble
+import ReactiveCocoa
 import XCTest
 @testable import OMStarWars
 

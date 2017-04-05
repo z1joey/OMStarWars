@@ -4,5 +4,9 @@ target 'OMStarWars' do
   pod 'AFNetworking'
   pod 'ReactiveCocoa'
   pod 'SwiftyJSON'
-  pod 'Nimble'
+  
+  target 'OMStarWarsTests' do
+    inherit! :search_paths
+    pod 'Nimble'
+  end
 end
