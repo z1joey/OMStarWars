@@ -6,15 +6,25 @@
 class StarWarsParser {
     
     /**
-     * Parse a list of films.
+     * Get the results from the response.
      */
-    func parseFilms(fromObject object: Any) -> Array<Film>? {
-        let json = JSON(object)
-        let filmObjects = json["results"]
-        if !filmObjects.exists() {
+    func parseResponse(fromObject object: Any?) -> JSON? {
+        if object == nil {
             return nil
         }
-        return filmObjects.arrayValue.map({ filmObject in
+        let json = JSON(object!)
+        let results = json["results"]
+        if !results.exists() {
+            return nil
+        }
+        return results
+    }
+    
+    /**
+     * Parse a list of films.
+     */
+    func parseFilms(fromJSONObject object: JSON) -> Array<Film> {
+        return object.arrayValue.map({ filmObject in
             parseFilm(fromJSONObject: filmObject)
         })
     }
@@ -22,7 +32,7 @@ class StarWarsParser {
     /**
      * Parse a film.
      */
-    private func parseFilm(fromJSONObject object: JSON) -> Film {
+    func parseFilm(fromJSONObject object: JSON) -> Film {
         let film = Film()
         film.title = object["title"].stringValue
         film.episodeID = object["episode_id"].intValue
