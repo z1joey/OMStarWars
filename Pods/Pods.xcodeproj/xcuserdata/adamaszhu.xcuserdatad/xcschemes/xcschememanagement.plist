@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Quick.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ReactiveCocoa.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -62,7 +67,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3D8FEE129E8838CD16FB28305A033FED</key>
+		<key>19B822075386C715D5844D8B782BEC90</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -78,6 +83,11 @@
 			<true/>
 		</dict>
 		<key>8331123BC9BE537559A82B8591C9324D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>86A2EE2F072C08DC4D9E24FA2026CE97</key>
 		<dict>
 			<key>primary</key>
 			<true/>

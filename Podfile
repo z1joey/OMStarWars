@@ -8,5 +8,6 @@ target 'OMStarWars' do
   target 'OMStarWarsTests' do
     inherit! :search_paths
     pod 'Nimble'
+    pod 'Quick'
   end
 end
