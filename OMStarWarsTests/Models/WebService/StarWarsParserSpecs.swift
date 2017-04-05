@@ -29,29 +29,29 @@ class StarWarsParserSpecs: QuickSpec {
                 let film = starWarsParser.parseFilm(fromJSONObject: json)
                 
                 it("with title") {
-                    expect(film.title) == data["title"] as? String
+                    expect(film.title) == "Film 1"
                 }
                 
                 it("with episode id") {
-                    expect(film.episodeID) == data["episode_id"] as? Int
+                    expect(film.episodeID) == 1
                 }
                 
                 it("with opening crawl") {
-                    expect(film.openingCrawl) == data["opening_crawl"] as? String
+                    expect(film.openingCrawl) == "Description 1"
                 }
                 
                 it("with producer") {
-                    expect(film.producer) == data["producer"] as? String
+                    expect(film.producer) == "Producer 1"
                 }
                 
                 it("with director") {
-                    expect(film.director) == data["director"] as? String
+                    expect(film.director) == "Director 1"
                 }
                 
                 it("with release date") {
                     let dateFormatter = DateFormatter()
                     dateFormatter.dateFormat = "yyyy-MM-dd"
-                    expect(film.releaseDate) == dateFormatter.date(from: data["release_date"] as! String)
+                    expect(film.releaseDate) == dateFormatter.date(from: "2000-01-01")
                 }
             }
         }
@@ -59,31 +59,25 @@ class StarWarsParserSpecs: QuickSpec {
     
     static let FilmsData = [
         [
-            "title": "A New Hope",
-            "episode_id": 4,
-            "opening_crawl": "Introduction 4",
-            "director": "George Lucas",
-            "producer": "Gary Kurtz, Rick McCallum",
-            "release_date": "1977-05-25",
-            "created": "2014-12-10T14:23:31.880000Z",
-            "edited": "2015-04-11T09:46:52.774897Z",
-            "url": "http://swapi.co/api/films/1/"
-        ],
+            "title": "Film 1",
+            "episode_id": 1,
+            "opening_crawl": "Description 1",
+            "director": "Director 1",
+            "producer": "Producer 1",
+            "release_date": "2000-01-01",
+            ],
         [
-            "title": "Attack of the Clones",
+            "title": "Film 2",
             "episode_id": 2,
-            "opening_crawl": "Introduction 2",
-            "director": "George Lucas",
-            "producer": "Rick McCallum",
-            "release_date": "2002-05-16",
-            "created": "2014-12-20T10:57:57.886000Z",
-            "edited": "2015-04-11T09:45:01.623982Z",
-            "url": "http://swapi.co/api/films/5/"
+            "opening_crawl": "Description 2",
+            "director": "Director 2",
+            "producer": "Producer 2",
+            "release_date": "2000-01-02"
         ]
     ]
     
     static let ResponseData = [
-        "count": 7,
+        "count": 2,
         "next": "null",
         "previous": "null",
         "results": StarWarsParserSpecs.FilmsData
