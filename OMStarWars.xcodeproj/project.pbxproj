@@ -217,6 +217,15 @@
 			path = Strings;
 			sourceTree = "<group>";
 		};
+		2841C4591E94C7DE00E3E140 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				28682E1E1E91CC6B001F7894 /* OMAssertionHandler.swift */,
+				28440BA01E8A2EB50008651E /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		28440B7D1E8A2EB50008651E = {
 			isa = PBXGroup;
 			children = (
@@ -253,9 +262,8 @@
 		28440B9D1E8A2EB50008651E /* OMStarWarsTests */ = {
 			isa = PBXGroup;
 			children = (
+				2841C4591E94C7DE00E3E140 /* App */,
 				28682E201E91CF25001F7894 /* Models */,
-				28440BA01E8A2EB50008651E /* Info.plist */,
-				28682E1E1E91CC6B001F7894 /* OMAssertionHandler.swift */,
 			);
 			path = OMStarWarsTests;
 			sourceTree = "<group>";
@@ -719,7 +727,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = OMStarWarsTests/Info.plist;
+				INFOPLIST_FILE = OMStarWarsTests/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.outware.OMStarWarsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -734,7 +742,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = OMStarWarsTests/Info.plist;
+				INFOPLIST_FILE = OMStarWarsTests/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.outware.OMStarWarsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
