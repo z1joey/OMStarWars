@@ -9,7 +9,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Nimble.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-OMStarWars.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-OMStarWarsTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Quick.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -42,7 +57,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>0921CC2F4398BE9A4F1CEACB30684B56</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>14C572B5653FDB1A18A4EA64DCAB6AC3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>19B822075386C715D5844D8B782BEC90</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -58,6 +83,11 @@
 			<true/>
 		</dict>
 		<key>8331123BC9BE537559A82B8591C9324D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>86A2EE2F072C08DC4D9E24FA2026CE97</key>
 		<dict>
 			<key>primary</key>
 			<true/>
