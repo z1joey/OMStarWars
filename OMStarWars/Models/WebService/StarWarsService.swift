@@ -29,15 +29,12 @@ class StarWarsService {
                 completion(nil, error)
                 return
             }
-            if object == nil {
+            let results = self.parser.parseResponse(fromObject: object)
+            if results == nil {
                 completion(nil, StarWarsServiceError.parser)
                 return
             }
-            let films = self.parser.parseFilms(fromObject: object!)
-            if films == nil {
-                completion(nil, StarWarsServiceError.parser)
-                return
-            }
+            let films = self.parser.parseFilms(fromJSONObject: results!)
             completion(films, nil)
             
         }

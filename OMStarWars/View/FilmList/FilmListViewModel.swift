@@ -46,7 +46,10 @@ class FilmListViewModel {
     /**
      * Get a sub view model.
      */
-    func getFilmListCellViewModel(atIndex index: Int) -> FilmListCellViewModel {
+    func getFilmListCellViewModel(atIndex index: Int) -> FilmListCellViewModel? {
+        if index >= filmAmount {
+            return nil
+        }
         let film = films[index]
         return FilmListCellViewModel(withFilm: film)
     }
@@ -54,7 +57,10 @@ class FilmListViewModel {
     /**
      * Get a sub view model.
      */
-    func getFilmDetailViewModel(atIndex index: Int) -> FilmDetailViewModel {
+    func getFilmDetailViewModel(atIndex index: Int) -> FilmDetailViewModel? {
+        if index >= filmAmount {
+            return nil
+        }
         let film = films[index]
         return FilmDetailViewModel(withFilm: film)
     }
