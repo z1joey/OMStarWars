@@ -78,7 +78,7 @@
 		2841C45F1E94C8B700E3E140 /* FilmDetailViewModelSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmDetailViewModelSpecs.swift; sourceTree = "<group>"; };
 		2841C4611E94C8C900E3E140 /* FilmListViewModelSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmListViewModelSpecs.swift; sourceTree = "<group>"; };
 		2841C4631E94C8FA00E3E140 /* FilmListCellViewModelSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmListCellViewModelSpecs.swift; sourceTree = "<group>"; };
-		28440B861E8A2EB50008651E /* OMStarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMStarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28440B861E8A2EB50008651E /* Star Wars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Star Wars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28440B9A1E8A2EB50008651E /* OMStarWarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMStarWarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28440BA01E8A2EB50008651E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28440BA51E8A2EB50008651E /* OMStarWarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMStarWarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -273,7 +273,7 @@
 		28440B871E8A2EB50008651E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28440B861E8A2EB50008651E /* OMStarWars.app */,
+				28440B861E8A2EB50008651E /* Star Wars.app */,
 				28440B9A1E8A2EB50008651E /* OMStarWarsTests.xctest */,
 				28440BA51E8A2EB50008651E /* OMStarWarsUITests.xctest */,
 			);
@@ -365,7 +365,7 @@
 			);
 			name = OMStarWars;
 			productName = OMStarWars;
-			productReference = 28440B861E8A2EB50008651E /* OMStarWars.app */;
+			productReference = 28440B861E8A2EB50008651E /* Star Wars.app */;
 			productType = "com.apple.product-type.application";
 		};
 		28440B991E8A2EB50008651E /* OMStarWarsTests */ = {
@@ -738,7 +738,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/OMStarWars/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.outware.OMStarWars;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Star Wars";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -752,7 +752,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/OMStarWars/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.outware.OMStarWars;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Star Wars";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
