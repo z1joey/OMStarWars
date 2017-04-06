@@ -29,7 +29,9 @@ class FilmList : UITableView, UITableViewDataSource, UITableViewDelegate {
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let filmDetailViewModel = viewModel.getFilmDetailViewModel(atIndex: indexPath.row)
-        showDetail?(filmDetailViewModel)
+        if filmDetailViewModel != nil {
+            showDetail?(filmDetailViewModel!)
+        }
     }
     
 }
