@@ -1,6 +1,0 @@
-framework module Pods_OMStarWars {
-  umbrella header "Pods-OMStarWars-umbrella.h"
-
-  export *
-  module * { export * }
-}
